@@ -1,0 +1,47 @@
+body {
+    background-color: rgb(255, 255, 255);
+}
+
+.divForm {
+    border: 2px solid grey;
+    border-radius: 5px;
+    margin: 2%;
+    background-color: white;
+    opacity: 0.8;
+}
+
+#image {
+    width: 100px;
+    height: 120px;
+    float: right;
+    margin: 2%;
+    border: 2px solid grey;
+}
+
+#titre {
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+}
+
+input,
+select {
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+textarea {
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input:hover {
+    background-color: aliceblue;
+}
